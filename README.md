@@ -82,18 +82,21 @@ http://127.0.0.1:8000/api/
 ```bash
 curl -X POST -H "Content-Type: application/json" -d "{\"nombre\":\"Arnold Schwarz\", \"documento\":\"1234567890\"}" http://127.0.0.1:8000/api/clientes/
 ```
+<img width="870" height="463" alt="image" src="https://github.com/user-attachments/assets/30ba904f-f8bc-4995-9607-dac662d2f039" />
 
 ------------------------------------------------------------
 ### 🗓️ Crear reserva
 ```bash
 curl -X POST -H "Content-Type: application/json" -d "{\"fecha_ingreso\":\"2025-11-05\", \"fecha_salida\":\"2025-11-08\", \"numero_habitacion\":203, \"cliente\":1}" http://127.0.0.1:8000/api/reservas/
 ```
+<img width="866" height="556" alt="image" src="https://github.com/user-attachments/assets/24034b43-1f99-4f27-bb61-2bad48d1f2f9" />
 
 ------------------------------------------------------------
 ### 🔍 Búsqueda
 ```bash
 curl -X GET "http://127.0.0.1:8000/api/reservas/?search=Arnold"
 ```
+<img width="930" height="604" alt="image" src="https://github.com/user-attachments/assets/dc9fa06e-b24d-4024-9618-0276104a1252" />
 
 **Ejemplo de respuesta:**
 ```json
